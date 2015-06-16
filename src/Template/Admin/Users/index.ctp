@@ -57,15 +57,12 @@
                         </div>
                     </div>
                     </div>
-                    <!--===================================================-->
-                    
-                    
-                    <!--===================================================-->
-                    <!--End page content-->
-<?= $this->Html->css('admin/n/switchery.min', ['block' => 'switchery']); ?>
-<?= $this->Html->script('admin/n/switchery.min', ['block' => 'switchery']); ?>
-<?= $this->Html->css('admin/n/bootstrap-table.min', ['block' => 'dataTables']); ?>
-<?= $this->Html->script('admin/n/bootstrap-table.min', ['block' => 'dataTables']); ?>
+<?= $this->Html->script('../components/moment/min/moment-with-locales', ['block' => 'moments']); ?>
+<?= $this->Html->css('../components/switchery/dist/switchery', ['block' => 'switchery']); ?>
+<?= $this->Html->script('../components/switchery/dist/switchery', ['block' => 'switchery']); ?>
+<?= $this->Html->css('../components/bootstrap-table/dist/bootstrap-table', ['block' => 'bootstrap-table']); ?>
+<?= $this->Html->script('../components/bootstrap-table/dist/bootstrap-table-all', ['block' => 'bootstrap-table']); ?>
+<?= $this->Html->script('admin/table-script', ['block' => 'table-script']); ?>
 
 
 

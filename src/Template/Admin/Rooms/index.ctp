@@ -21,15 +21,6 @@
                         <li><a href="#">Rooms</a></li>
                         <li class="active">List</li>
                     </ol>
-                    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-                    <!--End breadcrumb-->
-
-                    <!--Page content-->
-                    <!--===================================================-->
-
-
-                    <!--Basic Toolbar-->
-                    <!--===================================================-->
                     <div id="page-content">
                         
                     <div class="panel">
@@ -71,13 +62,8 @@
                         </div>
                     </div>
                     </div>
-                    <!--===================================================-->
-                    
-                    
-                    <!--===================================================-->
-                    <!--End page content-->
 <?= $this->Html->css('../components/bootstrap-table/dist/bootstrap-table', ['block' => 'bootstrap-table']); ?>
-<?= $this->Html->script('../components/bootstrap-table/dist/bootstrap-table', ['block' => 'bootstrap-table']); ?>
+<?= $this->Html->script('../components/bootstrap-table/dist/bootstrap-table-all', ['block' => 'bootstrap-table']); ?>
 <?= $this->Html->script('admin/table-script', ['block' => 'table-script']); ?>
 
 

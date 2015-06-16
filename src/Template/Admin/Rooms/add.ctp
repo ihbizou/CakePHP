@@ -80,7 +80,8 @@
     <?= $this->Form->end() ?>
 </div>
 <div id="page-content">
-<?= $this->Html->css('admin/summernote', ['block' => 'summernote']); ?>
-<?= $this->Html->script('admin/summernote', ['block' => 'summernote']); ?>
-<?= $this->Html->css('admin/dropzone', ['block' => 'dropzone']); ?>
-<?= $this->Html->script('admin/dropzone', ['block' => 'dropzone']); ?>
+<?= $this->Html->css('../components/summernote/dist/summernote', ['block' => 'summernote']); ?>
+<?= $this->Html->css('../components/dropzone/dist/dropzone', ['block' => 'dropzone']); ?>
+<?= $this->Html->script('../components/dropzone/dist/dropzone', ['block' => 'dropzone']); ?>
+<?= $this->Html->script('../components/summernote/dist/summernote', ['block' => 'summernote']); ?>
+<?= $this->Html->script('admin/main', ['block' => 'main']); ?>

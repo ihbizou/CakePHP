@@ -496,10 +496,12 @@
             <?= $this->Html->script('../components/bootstrap/dist/js/bootstrap.min') ?>
             <?= $this->Html->script('../components/fastclick/lib/fastclick') ?>
             <?= $this->Html->script('admin/nifty.min') ?>
+            <?= $this->fetch('moments') ?>
             <?= $this->fetch('switchery') ?>
             <?= $this->fetch('bootstrap-table') ?>
             <?= $this->fetch('summernote') ?>
             <?= $this->fetch('dropzone') ?>
             <?= $this->fetch('wizard') ?>
+            <?= $this->fetch('main') ?>
     </body>
 </html>
