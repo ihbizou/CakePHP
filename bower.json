@@ -16,5 +16,12 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap-table": "~1.8.1",
+    "summernote": "~0.6.7",
+    "dropzone": "~4.0.1",
+    "switchery": "~0.8.0",
+    "bootstrap": "~3.3.4"
+  }
 }

@@ -51,7 +51,7 @@ class CreateUsers extends AbstractMigration
             'default' => 0,
             'null' => false,
         ]);
-        $table->addColumn('confermed', 'boolean', [
+        $table->addColumn('confirmed', 'boolean', [
             'default' => 0,
             'null' => false,
         ]);

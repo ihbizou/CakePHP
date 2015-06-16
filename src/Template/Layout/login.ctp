@@ -7,14 +7,12 @@
         <!--STYLESHEET-->
         <!--=================================================-->
         <!--Bootstrap Stylesheet [ REQUIRED ]-->
-        <?= $this->Html->css('bootstrap.min') ?>
-        <!--Nifty Stylesheet [ REQUIRED ]-->
-        <?= $this->Html->css('admin/n/nifty.min') ?>
-
-        <!--Font Awesome [ OPTIONAL ]-->
-        <?= $this->Html->css('font-awesome.min') ?>
-        <?= $this->Html->css('admin/n/pace.min') ?>
-        <?= $this->Html->script('admin/n/pace.min') ?>
+        <?= $this->Html->css('../components/pace/themes/blue/pace-theme-center-simple') ?>
+        <?= $this->Html->script('../components/pace/pace.min') ?>
+        <?= $this->Html->css('../components/bootstrap/dist/css/bootstrap.min') ?>
+        <?= $this->Html->css('admin/nifty.min') ?>
+        <?= $this->Html->css('../components/font-awesome/css/font-awesome.min') ?>
+        <?= $this->Html->css('admin/nifty-demo.min') ?>
     </head>
     <body>
         <div id="container" class="cls-container">
@@ -38,10 +36,10 @@
         <!--JAVASCRIPT-->
         <!--=================================================-->
         <!--jQuery [ REQUIRED ]-->
-        <?= $this->Html->script('libs/jquery-2.1.1.min') ?>
+        <?= $this->Html->script('../components/jquery/dist/jquery.min') ?>
         <!--BootstrapJS [ RECOMMENDED ]-->
-        <?= $this->Html->script('libs/bootstrap.min') ?>
+        <?= $this->Html->script('../components/bootstrap/dist/js/bootstrap.min') ?>
         <!--Nifty Admin [ RECOMMENDED ]-->
-        <?= $this->Html->script('admin/n/nifty.min') ?>
+        <?= $this->Html->script('admin/nifty.min') ?>
     </body>
 </html>

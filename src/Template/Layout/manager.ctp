@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Admin | <?= $this->fetch('title') ?></title>
-        <?= $this->Html->css('bootstrap.min') ?>
-        <?= $this->Html->css('admin/n/nifty.min') ?>
-        <?= $this->Html->css('font-awesome.min') ?>
-        <?= $this->Html->css('admin/n/nifty-demo.min') ?>
-        <?= $this->Html->css('admin/n/pace.min') ?>
-        <?= $this->Html->script('admin/n/pace.min') ?>
+        <?= $this->Html->css('../components/pace/themes/blue/pace-theme-center-simple') ?>
+        <?= $this->Html->script('../components/pace/pace.min') ?>
+        <?= $this->Html->css('../components/bootstrap/dist/css/bootstrap.min') ?>
+        <?= $this->Html->css('admin/nifty.min') ?>
+        <?= $this->Html->css('../components/font-awesome/css/font-awesome.min') ?>
+        <?= $this->Html->css('admin/nifty-demo.min') ?>
     </head>
     <!--TIPS-->
     <!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
@@ -491,23 +491,15 @@
             <button id="scroll-top" class="btn"><i class="fa fa-chevron-up"></i></button>
             <!--===================================================-->
         </div>
-        <!--===================================================-->
-        <!-- END OF CONTAINER -->
-        <!--JAVASCRIPT-->
-        <!--=================================================-->
-        <!--jQuery [ REQUIRED ]-->
-        <?= $this->Html->script('libs/jquery-2.1.1.min') ?>
-        <!--BootstrapJS [ RECOMMENDED ]-->
-        <?= $this->Html->script('libs/bootstrap.min') ?>
-        <!--Fast Click [ OPTIONAL ]-->
-        <?= $this->Html->script('admin/n/fastclick.min') ?>
 
-        <!--Nifty Admin [ RECOMMENDED ]-->
-        <?= $this->Html->script('admin/n/nifty.min') ?>
-        <?= $this->fetch('switchery') ?>
-        <?= $this->fetch('dataTables') ?>
-        <?= $this->fetch('summernote') ?>
-        <?= $this->fetch('dropzone') ?>
-        <?= $this->fetch('wizard') ?>
+            <?= $this->Html->script('../components/jquery/dist/jquery.min') ?>
+            <?= $this->Html->script('../components/bootstrap/dist/js/bootstrap.min') ?>
+            <?= $this->Html->script('../components/fastclick/lib/fastclick') ?>
+            <?= $this->Html->script('admin/nifty.min') ?>
+            <?= $this->fetch('switchery') ?>
+            <?= $this->fetch('bootstrap-table') ?>
+            <?= $this->fetch('summernote') ?>
+            <?= $this->fetch('dropzone') ?>
+            <?= $this->fetch('wizard') ?>
     </body>
 </html>

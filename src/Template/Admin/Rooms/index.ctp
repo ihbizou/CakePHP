@@ -76,7 +76,8 @@
                     
                     <!--===================================================-->
                     <!--End page content-->
-<?= $this->Html->css('admin/n/bootstrap-table.min', ['block' => 'dataTables']); ?>
-<?= $this->Html->script('admin/n/bootstrap-table.min', ['block' => 'dataTables']); ?>
+<?= $this->Html->css('../components/bootstrap-table/dist/bootstrap-table', ['block' => 'bootstrap-table']); ?>
+<?= $this->Html->script('../components/bootstrap-table/dist/bootstrap-table', ['block' => 'bootstrap-table']); ?>
+<?= $this->Html->script('admin/table-script', ['block' => 'table-script']); ?>
 
 
