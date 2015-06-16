@@ -1,0 +1,20 @@
+{
+  "name": "CakePHP MANAGER",
+  "version": "0.0.1",
+  "homepage": "http://",
+  "authors": [
+    "lahcentahiri <tahirilahcen@msn.com>"
+  ],
+  "description": "Admin for site web",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
